@@ -1,0 +1,37 @@
+.restaurant-section {
+  padding: 40px;
+}
+.restaurant-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+.filters {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 28px;
+  flex-wrap: wrap;
+}
+.filter-btn {
+  padding: 8px 20px;
+  border-radius: 20px;
+  border: 1px solid #cb202d;
+  background: white;
+  color: #cb202d;
+  cursor: pointer;
+  font-size: 14px;
+}
+.filter-btn.active {
+  background-color: #cb202d;
+  color: white;
+}
+.restaurant-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+@media (max-width: 768px) {
+  .restaurant-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

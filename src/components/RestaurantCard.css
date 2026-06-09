@@ -1,0 +1,41 @@
+.card {
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.2s;
+  background: white;
+}
+.card:hover { transform: scale(1.02); }
+.card-image {
+  background: linear-gradient(135deg, #fff5f5, #ffe0e0);
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-image span {
+  font-size: 80px;
+  line-height: 1;
+}
+.card-body { padding: 16px; }
+.card-body h3 {
+  font-size: 18px;
+  margin-bottom: 4px;
+  color: #333;
+}
+.cuisine {
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+.card-footer {
+  display: flex;
+  gap: 16px;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+.price {
+  color: #555;
+  font-size: 13px;
+}
