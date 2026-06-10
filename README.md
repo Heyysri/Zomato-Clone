@@ -309,7 +309,7 @@ Access app: `http://<EXTERNAL-IP>` ✅
 # 📸 Screenshots
 
 ## EC2 Instance
-> *(screenshots/Ec2-Instance.png)*
+![Ec2 Instance](screenshots/Ec2-Instance.png)
 
 ## Security Group
 > *(screenshots/security-group.png)*
