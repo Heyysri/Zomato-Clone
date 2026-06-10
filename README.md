@@ -83,7 +83,7 @@ Zomato-Clone-DevSecOps-CI-CD-Pipeline/
 | 22 | SSH |
 | 8080 | Jenkins |
 | 9000 | SonarQube |
-| 3000 | React App |
+| 443 | HTTPS |
 | 80 | HTTP |
 
 ---
