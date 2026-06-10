@@ -9,12 +9,12 @@ pipeline {
     environment {
         SCANNER_HOME          = tool 'sonar-scanner'
         DOCKER_IMAGE          = 'zomato-clone'
-        DOCKER_REGISTRY       = 'arca9'
+        DOCKER_REGISTRY       = '<DOCKER-HUB-USERNAME>'
         DOCKER_CREDENTIALS_ID = 'docker-cred'
         MANIFEST_FILE         = 'k8s/deployment.yml'
         GIT_REPO_NAME         = 'Zomato-Clone'
-        GIT_USER_NAME         = 'Heyysri'
-        GIT_EMAIL             = 'sreekanthsanjay5@gmail.com'
+        GIT_USER_NAME         = '<GIT-USERNAME>'
+        GIT_EMAIL             = 'GIT-EMAIL'
     }
 
     stages {
