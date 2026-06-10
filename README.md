@@ -309,28 +309,28 @@ Access app: `http://<EXTERNAL-IP>` ✅
 # 📸 Screenshots
 
 ## EC2 Instance
-> *(Add screenshot here)*
+> *(screenshots/Ec2-Instance.png)*
 
 ## Security Group
-> *(Add screenshot here)*
+> *(screenshots/security-group.png)*
 
 ## Jenkins Pipeline Success
-> *(Add screenshot here)*
+> *(screenshots/pipeline-success.png)*
 
 ## Jenkins Console logs Success
-> *(Add screenshot here)*
+> *(screenshots/Logs-success.png)*
 
 ## SonarQube Quality Gate Passed
-> *(Add screenshot here)*
+> *(screenshots/Quality-gate.png)*
 
 ## DockerHub Image Pushed
-> *(Add screenshot here)*
+> *(screenshots/Image-Push.png)*
 
 ## Argo CD Synced & Healthy
-> *(Add screenshot here)*
+> *(screenshots/argo-cd.png)*
 
 ## Live Application
-> *(Add screenshot here)*
+> *(screenshots/Live-application.png)*
 
 ---
 
